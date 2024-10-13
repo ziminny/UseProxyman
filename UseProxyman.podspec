@@ -13,8 +13,6 @@ Pod::Spec.new do |s|
   s.source                = { :git => 'https://github.com/ziminny/UseProxyman.git', :tag => s.version.to_s }
   s.ios.deployment_target = '15.6'
   s.osx.deployment_target = '13.0'
-  s.source_files          = 'PasseiCoreData/Classes/**/*' 
-
   s.source_files = 'Sources/**/*.{swift}'
   s.dependency 'SwiftSyntax'
   s.dependency 'SwiftSyntaxBuilder'
